@@ -8,6 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.haeyum.everyonewalking.scenarios.intro.signIn.SignInScreen
 import com.haeyum.everyonewalking.scenarios.intro.splash.SplashScreen
 import com.haeyum.everyonewalking.ui.theme.EveryoneWalkingTheme
 
@@ -16,7 +17,8 @@ class IntroActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             EveryoneWalkingTheme {
-                SplashScreen()
+//                SplashScreen()
+                SignInScreen()
             }
         }
     }
